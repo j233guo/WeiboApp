@@ -90,6 +90,7 @@
 		C96FAA2C29ECAB8800715C84 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA9D929ECAB8800715C84 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg */; };
 		C96FAA2D29ECAB8800715C84 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA9DA29ECAB8800715C84 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg */; };
 		C96FAA2E29ECAB8800715C84 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA9DB29ECAB8800715C84 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg */; };
+		C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9814FE929EDFA2300E87CE9 /* Post.swift */; };
 		C994706B29ECB4E500F800CA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706A29ECB4E500F800CA /* PostCell.swift */; };
 		C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706C29ECB51700F800CA /* VIPBadge.swift */; };
 		C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */; };
@@ -202,6 +203,7 @@
 		C96FA9D929ECAB8800715C84 /* bca7fdafly1gax1gqdhouj20c80axaam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bca7fdafly1gax1gqdhouj20c80axaam.jpg; sourceTree = "<group>"; };
 		C96FA9DA29ECAB8800715C84 /* 6ec3b446gy1gavd523embj20j60pytd6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446gy1gavd523embj20j60pytd6.jpg; sourceTree = "<group>"; };
 		C96FA9DB29ECAB8800715C84 /* 005tnxzUly8gab4i2r73xj30u00u0js8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005tnxzUly8gab4i2r73xj30u00u0js8.jpg; sourceTree = "<group>"; };
+		C9814FE929EDFA2300E87CE9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C994706A29ECB4E500F800CA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C994706C29ECB51700F800CA /* VIPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPBadge.swift; sourceTree = "<group>"; };
 		C9C2DD7729ECA51900C174B3 /* WeiboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -331,6 +333,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		C9814FE829EDFA1300E87CE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9814FE929EDFA2300E87CE9 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C9C2DD6E29ECA51900C174B3 = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +364,7 @@
 		C9C2DD7929ECA51900C174B3 /* WeiboApp */ = {
 			isa = PBXGroup;
 			children = (
+				C9814FE829EDFA1300E87CE9 /* Model */,
 				C96FA98829ECAB8800715C84 /* Resources */,
 				C9C2DDA429ECA61F00C174B3 /* View */,
 				C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */,
@@ -615,6 +626,7 @@
 				C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */,
 				C994706B29ECB4E500F800CA /* PostCell.swift in Sources */,
 				C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */,
+				C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

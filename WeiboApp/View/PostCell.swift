@@ -8,24 +8,26 @@
 import SwiftUI
 
 struct PostCell: View {
+	let post: Post
+	
     var body: some View {
 		HStack(spacing: 5) {
-			Image(uiImage: UIImage(named: "8697cf1ely8gashxj3b09j20u00u040v.jpg")!)
+			Image(uiImage: UIImage(named: post.avatar)!)
 				.resizable()
 				.scaledToFill()
 				.frame(width: 50, height: 50)
 				.clipShape(Circle())
 				.overlay {
-					VIPBadge()
+					VIPBadge(isVip: post.vip)
 						.offset(x: 15, y: 15)
 				}
 			
 			VStack(alignment: .leading, spacing: 5) {
-				Text("用户昵称")
+				Text(post.name)
 					.font(.system(size: 16))
 					.foregroundColor(Color("theme"))
 					.lineLimit(1)
-				Text("2023-01-01 00:00")
+				Text(post.date)
 					.font(.system(size: 11))
 					.foregroundColor(.gray)
 			}
@@ -33,17 +35,19 @@ struct PostCell: View {
 			
 			Spacer()
 			
-			Button {
-				print("Tapped follow btn")
-			} label: {
-				Text("关注")
-					.font(.system(size: 14))
-					.foregroundColor(Color("theme"))
-					.frame(width: 50, height: 26)
-					.overlay {
-						RoundedRectangle(cornerRadius: 13)
-							.stroke(Color("theme"), lineWidth: 1)
-					}
+			if post.isFollowed {
+				Button {
+					print("Tapped follow btn")
+				} label: {
+					Text("关注")
+						.font(.system(size: 14))
+						.foregroundColor(Color("theme"))
+						.frame(width: 50, height: 26)
+						.overlay {
+							RoundedRectangle(cornerRadius: 13)
+								.stroke(Color("theme"), lineWidth: 1)
+						}
+				}
 			}
 		}
     }
@@ -51,6 +55,6 @@ struct PostCell: View {
 
 struct PostCell_Previews: PreviewProvider {
     static var previews: some View {
-        PostCell()
+		PostCell(post: POSTLIST.list[5])
     }
 }
