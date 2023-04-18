@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96D315829EF4E560030FF66 /* PostCellToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D315729EF4E560030FF66 /* PostCellToolbarButton.swift */; };
+		C96D315A29EF51CC0030FF66 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D315929EF51CC0030FF66 /* PostListView.swift */; };
 		C96FA9DC29ECAB8800715C84 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA98929ECAB8800715C84 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg */; };
 		C96FA9DD29ECAB8800715C84 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA98A29ECAB8800715C84 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg */; };
 		C96FA9DE29ECAB8800715C84 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C96FA98B29ECAB8800715C84 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg */; };
@@ -120,6 +122,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C96D315729EF4E560030FF66 /* PostCellToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellToolbarButton.swift; sourceTree = "<group>"; };
+		C96D315929EF51CC0030FF66 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		C96FA98929ECAB8800715C84 /* 8697cf1ely8gashxj3b09j20u00u040v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8697cf1ely8gashxj3b09j20u00u040v.jpg; sourceTree = "<group>"; };
 		C96FA98A29ECAB8800715C84 /* d0c21786ly1gavj2c0kcej20c8096dh7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d0c21786ly1gavj2c0kcej20c8096dh7.jpg; sourceTree = "<group>"; };
 		C96FA98B29ECAB8800715C84 /* 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6ec3b446jw1e8qgp5bmzyj2050050aa8.jpg; sourceTree = "<group>"; };
@@ -405,6 +409,8 @@
 				C9C2DD7C29ECA51900C174B3 /* ContentView.swift */,
 				C994706A29ECB4E500F800CA /* PostCell.swift */,
 				C994706C29ECB51700F800CA /* VIPBadge.swift */,
+				C96D315729EF4E560030FF66 /* PostCellToolbarButton.swift */,
+				C96D315929EF51CC0030FF66 /* PostListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -623,10 +629,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C2DD7D29ECA51900C174B3 /* ContentView.swift in Sources */,
+				C96D315829EF4E560030FF66 /* PostCellToolbarButton.swift in Sources */,
 				C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */,
 				C994706B29ECB4E500F800CA /* PostCell.swift in Sources */,
 				C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */,
 				C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */,
+				C96D315A29EF51CC0030FF66 /* PostListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
