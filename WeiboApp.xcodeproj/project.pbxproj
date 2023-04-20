@@ -95,6 +95,7 @@
 		C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9814FE929EDFA2300E87CE9 /* Post.swift */; };
 		C994706B29ECB4E500F800CA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706A29ECB4E500F800CA /* PostCell.swift */; };
 		C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706C29ECB51700F800CA /* VIPBadge.swift */; };
+		C9AF8DCC29F1F97A00B7EAD4 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */; };
 		C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */; };
 		C9C2DD7D29ECA51900C174B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD7C29ECA51900C174B3 /* ContentView.swift */; };
 		C9C2DD7F29ECA51A00C174B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C2DD7E29ECA51A00C174B3 /* Assets.xcassets */; };
@@ -210,6 +211,7 @@
 		C9814FE929EDFA2300E87CE9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C994706A29ECB4E500F800CA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C994706C29ECB51700F800CA /* VIPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPBadge.swift; sourceTree = "<group>"; };
+		C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		C9C2DD7729ECA51900C174B3 /* WeiboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboAppApp.swift; sourceTree = "<group>"; };
 		C9C2DD7C29ECA51900C174B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 				C994706C29ECB51700F800CA /* VIPBadge.swift */,
 				C96D315729EF4E560030FF66 /* PostCellToolbarButton.swift */,
 				C96D315929EF51CC0030FF66 /* PostListView.swift */,
+				C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */,
 				C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */,
 				C96D315A29EF51CC0030FF66 /* PostListView.swift in Sources */,
+				C9AF8DCC29F1F97A00B7EAD4 /* PostImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
