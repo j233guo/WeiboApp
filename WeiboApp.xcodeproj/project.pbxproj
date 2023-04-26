@@ -95,6 +95,9 @@
 		C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9814FE929EDFA2300E87CE9 /* Post.swift */; };
 		C994706B29ECB4E500F800CA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706A29ECB4E500F800CA /* PostCell.swift */; };
 		C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994706C29ECB51700F800CA /* VIPBadge.swift */; };
+		C99CEF2A29F8A1B100C20A19 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CEF2929F8A1B100C20A19 /* HomeNavigationBar.swift */; };
+		C99CEF2C29F8A63F00C20A19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CEF2B29F8A63F00C20A19 /* HomeView.swift */; };
+		C99CEF2E29F8A81100C20A19 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CEF2D29F8A81100C20A19 /* UserData.swift */; };
 		C9AF8DCC29F1F97A00B7EAD4 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */; };
 		C9AF8DCE29F2001300B7EAD4 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF8DCD29F2001300B7EAD4 /* PostDetailView.swift */; };
 		C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */; };
@@ -212,6 +215,9 @@
 		C9814FE929EDFA2300E87CE9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C994706A29ECB4E500F800CA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C994706C29ECB51700F800CA /* VIPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPBadge.swift; sourceTree = "<group>"; };
+		C99CEF2929F8A1B100C20A19 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
+		C99CEF2B29F8A63F00C20A19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C99CEF2D29F8A81100C20A19 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		C9AF8DCD29F2001300B7EAD4 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		C9C2DD7729ECA51900C174B3 /* WeiboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,12 +347,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		C9814FE829EDFA1300E87CE9 /* Model */ = {
+		C9814FE829EDFA1300E87CE9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				C9814FE929EDFA2300E87CE9 /* Post.swift */,
+				C99CEF2D29F8A81100C20A19 /* UserData.swift */,
 			);
-			path = Model;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		C9C2DD6E29ECA51900C174B3 = {
@@ -372,7 +379,7 @@
 		C9C2DD7929ECA51900C174B3 /* WeiboApp */ = {
 			isa = PBXGroup;
 			children = (
-				C9814FE829EDFA1300E87CE9 /* Model */,
+				C9814FE829EDFA1300E87CE9 /* Data */,
 				C96FA98829ECAB8800715C84 /* Resources */,
 				C9C2DDA429ECA61F00C174B3 /* View */,
 				C9C2DD7A29ECA51900C174B3 /* WeiboAppApp.swift */,
@@ -417,6 +424,8 @@
 				C96D315929EF51CC0030FF66 /* PostListView.swift */,
 				C9AF8DCB29F1F97A00B7EAD4 /* PostImageCell.swift */,
 				C9AF8DCD29F2001300B7EAD4 /* PostDetailView.swift */,
+				C99CEF2929F8A1B100C20A19 /* HomeNavigationBar.swift */,
+				C99CEF2B29F8A63F00C20A19 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -639,7 +648,10 @@
 				C96D315829EF4E560030FF66 /* PostCellToolbarButton.swift in Sources */,
 				C9C2DD7B29ECA51900C174B3 /* WeiboAppApp.swift in Sources */,
 				C994706B29ECB4E500F800CA /* PostCell.swift in Sources */,
+				C99CEF2C29F8A63F00C20A19 /* HomeView.swift in Sources */,
+				C99CEF2E29F8A81100C20A19 /* UserData.swift in Sources */,
 				C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */,
+				C99CEF2A29F8A1B100C20A19 /* HomeNavigationBar.swift in Sources */,
 				C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */,
 				C96D315A29EF51CC0030FF66 /* PostListView.swift in Sources */,
 				C9AF8DCC29F1F97A00B7EAD4 /* PostImageCell.swift in Sources */,
