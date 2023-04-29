@@ -107,6 +107,7 @@
 		C9C2DD8C29ECA51A00C174B3 /* WeiboAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD8B29ECA51A00C174B3 /* WeiboAppTests.swift */; };
 		C9C2DD9629ECA51A00C174B3 /* WeiboAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD9529ECA51A00C174B3 /* WeiboAppUITests.swift */; };
 		C9C2DD9829ECA51A00C174B3 /* WeiboAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2DD9729ECA51A00C174B3 /* WeiboAppUITestsLaunchTests.swift */; };
+		C9F9FBEA29FC95F2001DC4CD /* HScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9FBE929FC95F2001DC4CD /* HScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +231,7 @@
 		C9C2DD9129ECA51A00C174B3 /* WeiboAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C2DD9529ECA51A00C174B3 /* WeiboAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboAppUITests.swift; sourceTree = "<group>"; };
 		C9C2DD9729ECA51A00C174B3 /* WeiboAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9F9FBE929FC95F2001DC4CD /* HScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +428,7 @@
 				C9AF8DCD29F2001300B7EAD4 /* PostDetailView.swift */,
 				C99CEF2929F8A1B100C20A19 /* HomeNavigationBar.swift */,
 				C99CEF2B29F8A63F00C20A19 /* HomeView.swift */,
+				C9F9FBE929FC95F2001DC4CD /* HScrollViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -652,6 +655,7 @@
 				C99CEF2E29F8A81100C20A19 /* UserData.swift in Sources */,
 				C994706D29ECB51700F800CA /* VIPBadge.swift in Sources */,
 				C99CEF2A29F8A1B100C20A19 /* HomeNavigationBar.swift in Sources */,
+				C9F9FBEA29FC95F2001DC4CD /* HScrollViewController.swift in Sources */,
 				C9814FEA29EDFA2300E87CE9 /* Post.swift in Sources */,
 				C96D315A29EF51CC0030FF66 /* PostListView.swift in Sources */,
 				C9AF8DCC29F1F97A00B7EAD4 /* PostImageCell.swift in Sources */,

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+	@State private var leftPercent: CGFloat = 0
 	
 	init() {
 		UITableView.appearance().separatorStyle = .none
@@ -16,16 +17,18 @@ struct HomeView: View {
 	
     var body: some View {
 		NavigationView {
-			ScrollView(.horizontal, showsIndicators: false) {
-				HStack(spacing: 0) {
-					PostListView(category: .recommend)
-						.frame(width: UIScreen.main.bounds.width)
-					PostListView(category: .hot)
-						.frame(width: UIScreen.main.bounds.width)
+			GeometryReader { geo in
+				HScrollViewController(pageWidth: geo.size.width, contentSize: CGSize(width: geo.size.width * 2, height: geo.size.height), leftPercent: $leftPercent) {
+					HStack(spacing: 0) {
+						PostListView(category: .recommend)
+							.frame(width: UIScreen.main.bounds.width)
+						PostListView(category: .hot)
+							.frame(width: UIScreen.main.bounds.width)
+					}
 				}
 			}
 			.toolbar {
-				HomeNavigationBar()
+				HomeNavigationBar(leftPercent: $leftPercent)
 			}
 			.navigationTitle("首页")
 			.navigationBarTitleDisplayMode(.inline)
